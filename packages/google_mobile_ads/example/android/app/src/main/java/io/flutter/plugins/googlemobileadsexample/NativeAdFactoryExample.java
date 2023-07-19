@@ -91,12 +91,12 @@ class NativeAdFactoryExample implements NativeAdFactory {
       ((TextView) adView.getStoreView()).setText(nativeAd.getStore());
     }
 
-    if (nativeAd.getStarRating() == null) {
-      adView.getStarRatingView().setVisibility(View.INVISIBLE);
-    } else {
-      ((RatingBar) adView.getStarRatingView()).setRating(nativeAd.getStarRating().floatValue());
-      adView.getStarRatingView().setVisibility(View.VISIBLE);
-    }
+//    if (nativeAd.getStarRating() == null) {
+//      adView.getStarRatingView().setVisibility(View.INVISIBLE);
+//    } else {
+//      ((RatingBar) adView.getStarRatingView()).setRating(nativeAd.getStarRating().floatValue());
+//      adView.getStarRatingView().setVisibility(View.VISIBLE);
+//    }
 
     if (nativeAd.getAdvertiser() == null) {
       adView.getAdvertiserView().setVisibility(View.INVISIBLE);
