@@ -1,0 +1,8 @@
+# Below is a list of Flutter team members who are suggested reviewers
+# for contributions to plugins in this repository.
+#
+# These names are just suggestions. It is fine to have your changes
+# reviewed by someone else.
+
+packages/google_mobile_ads/* @blasten @bparrishMines @jjliu15 @luo86 @srichakradhar
+.github/ @blasten @bparrishMines @jjliu15 @luo86 @srichakradhar
